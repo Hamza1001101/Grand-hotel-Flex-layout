@@ -87,7 +87,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  transition: left .8s cubic-bezier(1,0,0,1) ;
+  transition: left 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
 .navigation-heading {
@@ -153,7 +153,7 @@ body {
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-decoration: none;
-  transition: color .5s;
+  transition: color 0.5s;
 }
 .navigation-link::before {
   content: "";
@@ -163,7 +163,7 @@ body {
   position: absolute;
   top: 1rem;
   left: -4rem;
-  transition: width .5s cubic-bezier(1,0,0,1);
+  transition: width 0.5s cubic-bezier(1, 0, 0, 1);
 }
 .navigation-link::after {
   content: "";
@@ -173,20 +173,20 @@ body {
   position: absolute;
   top: 1rem;
   right: -4rem;
-  transition: width .5s cubic-bezier(1,0,0,1);
+  transition: width 0.5s cubic-bezier(1, 0, 0, 1);
 }
 .navigation-link:hover {
   color: #deaa86;
 }
 .navigation-link:hover::before,
 .navigation-link:hover::after {
-    width: 3rem;
+  width: 3rem;
 }
 /*Navigation bottom*/
 .copyright {
-    color: white;
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 /*Check box*/
 .checkbox:checked ~ .navigation {
@@ -207,4 +207,51 @@ body {
 /*Header styling*/
 .header {
   margin-left: 8rem;
+  height: 100vh;
+  background: linear-gradient(to top, rgba(0, 0, 
+  0, .6), rgba(0,0,0, .5)), 
+  url(../img/header-2.jpg) center no-repeat;
+ 
+  background-size: cover
+}
+.brand {
+  display: flex;
+  cursor: pointer;
+}
+.hotel-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 400;
+  color: #deaa86;
+  letter-spacing: .2rem;
+}
+.banner {
+  color: #ddd;
+  height: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+.banner-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 7rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.banner-paragraph {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+.banner-btn {
+  width: 21rem;
+  padding: 1.2rem 2rem;
+  font-size: 2rem;
+  color: #333;
+  letter-spacing: .1rem;
+  border: none;
+  border-radius: 10rem;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(to right, gold, goldenrod);
 }

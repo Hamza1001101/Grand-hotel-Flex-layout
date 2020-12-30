@@ -344,4 +344,20 @@ body {
 }
 .about-us-images {
   flex: 1 1;
+  position: relative;
+}
+
+/*Images styling*/
+.image {
+  width: 32rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}
+.image-1 {
+  transform: translate(-20%, -90%);
+}
+.image-3 {
+  transform: translate(-50%, -50%);
 }

@@ -506,3 +506,14 @@ body {
   font-size: 1.3rem;
   font-style: italic;
 }
+
+/*Footer*/
+.footer {
+  margin-left: 8rem;
+}
+.main-part {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1c1c;
+  padding: 4rem;
+}

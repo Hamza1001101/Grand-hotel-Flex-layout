@@ -550,7 +550,7 @@ body {
   max-width: 45rem;
 }
 .image-wrapper {
-  width: 12.1rem;
+  width: 12rem;
   margin: 0.4rem;
   overflow: hidden;
   transition: all .5s;

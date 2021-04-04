@@ -180,7 +180,7 @@ body {
 }
 .navigation-link:hover::before,
 .navigation-link:hover::after {
-  width: 3.5rem;
+  width: 3rem;
 }
 /*Navigation bottom*/
 .copyright {
